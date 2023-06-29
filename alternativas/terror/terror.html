@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="terror.css">
+  <title>Muito bom! 🔪</title>
+ </head>
+ <header>
+  <div class="cabeçalho">
+  </div>
+</header>
+<body>
+  <h1 class="title">Nao tenho medo, ta vendo? nao teria nem essa opçao</h1>
+  <img src="https://64.media.tumblr.com/a9580a369ae6ee52814a4479c6f235d9/tumblr_olj0xadz2K1qe135ro1_500.gif" alt="">
+</body>
+<script>
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    btn.addEventListener("touchstart", function() {
+        position ? (position = 0) : (position = 150);
+        btn.style.transform = `translate(${position}px,0px)`;
+        btn.style.transition = "all 0.3s ease";
+      });
+      
+      btn.addEventListener("touchend", function() {
+        position ? (position = 0) : (position = 150);
+        btn.style.transform = `translate(${position}px,0px)`;
+        btn.style.transition = "all 0.3s ease";
+      });
+  } else {
+    btn.addEventListener("mouseover", function() {
+        position ? (position = 0) : (position = 150);
+        btn.style.transform = `translate(${position}px,0px)`;
+        btn.style.transition = "all 0.3s ease";
+        });
+  }
+</script>
+</html>
